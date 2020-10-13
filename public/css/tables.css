@@ -1,0 +1,20 @@
+table.comicGreen {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: 2px solid #4F7849;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.comicGreen td, table.comicGreen th {
+  border: 1px solid #4F7849;
+  padding: 3px 2px;
+}
+table.comicGreen tbody td {
+  font-size: 19px;
+  font-weight: bold;
+  color: #4F7849;
+}
+table.comicGreen tr:nth-child(even) {
+  background: #CEE0CC;
+}

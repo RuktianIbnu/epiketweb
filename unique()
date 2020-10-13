@@ -1,0 +1,28 @@
+
+   Symfony\Component\Debug\Exception\FatalErrorException  : Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required 'C:\xampp\htdocs\epiketweb/App/Modules/Transaksi/database/Migrations/$table-;.php' (include_path='C:\xampp\php\PEAR')
+
+  at C:\xampp\htdocs\epiketweb\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php:98
+     94|      * @return mixed
+     95|      */
+     96|     public function requireOnce($file)
+     97|     {
+  >  98|         require_once $file;
+     99|     }
+    100| 
+    101|     /**
+    102|      * Get the MD5 hash of the file at the given path.
+
+
+   Whoops\Exception\ErrorException  : Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required 'C:\xampp\htdocs\epiketweb/App/Modules/Transaksi/database/Migrations/$table-;.php' (include_path='C:\xampp\php\PEAR')
+
+  at C:\xampp\htdocs\epiketweb\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php:98
+     94|      * @return mixed
+     95|      */
+     96|     public function requireOnce($file)
+     97|     {
+  >  98|         require_once $file;
+     99|     }
+    100| 
+    101|     /**
+    102|      * Get the MD5 hash of the file at the given path.
+
